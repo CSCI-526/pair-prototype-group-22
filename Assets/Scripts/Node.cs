@@ -6,11 +6,15 @@ public class Node : MonoBehaviour
     // If you want, you can store a surface normal or do something fancy:
     // public Vector3 surfaceNormal = Vector3.up;
 
+
+    public bool occupy = false;
+
     private void OnTriggerEnter(Collider other)
     {
         // 1) Make sure the BuildingSystem exists and is in "placing mode"
         if (BuildingSystem.Instance == null) return;
         if (!BuildingSystem.Instance.IsPlacing) return;
+        if (occupy) return;
 
         // 2) Check if the object entering the trigger is the "preview" object
         // (assuming you tag your preview object as "Preview")

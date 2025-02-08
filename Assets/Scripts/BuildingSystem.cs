@@ -1,15 +1,26 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BuildingSystem : MonoBehaviour
 {
     public static BuildingSystem Instance;   // Singleton for easy access in Node scripts
 
     [Header("Setup")]
-    public GameObject prefabToBuild;         // The real prefab to place
+    public GameObject prefabToBuild; // The real prefab to place
+
+    public GameObject option1;
+    public GameObject option2;
+
+    public Material PreviewMaterial1;
+    public Material PreviewMaterial2;
+    
     public Material previewMaterial;         // Material for the preview object
     public float exitDistanceThreshold = 10f;
     public Button startPlacingButton;
+    public GameObject player;
+    public string targetSceneName = "RacingScene";
     
     [Header("Mouse-Follow Settings")]
     public float previewDistanceFromCamera = 5f;  // How far in front of the camera the preview sits when no node is hovered
@@ -25,6 +36,8 @@ public class BuildingSystem : MonoBehaviour
         // Simple singleton pattern
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+        
+        player.GetComponent<PlayerSimpleMovement>().enabled = false;
     }
 
     private void Update()
@@ -50,7 +63,7 @@ public class BuildingSystem : MonoBehaviour
 
             Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
             float dist = Vector3.Distance(worldPos, currentHoveredNode.transform.position);
-            Debug.Log(dist);
+           // Debug.Log(dist);
             if (dist > exitDistanceThreshold)
             {
                 OnNodeHoverExit(currentHoveredNode);
@@ -63,8 +76,27 @@ public class BuildingSystem : MonoBehaviour
     /// </summary>
     public void StartPlacing()
     {
-        if (prefabToBuild == null) 
-            return;
+        prefabToBuild = option1;
+        previewMaterial = PreviewMaterial1;
+
+        // Destroy an old preview if it exists
+        if (PreviewObject != null)
+            Destroy(PreviewObject);
+
+        // 1) Spawn the preview object
+        PreviewObject = Instantiate(prefabToBuild);
+        PreviewObject.tag = "Preview";
+        ApplyPreviewMaterial(PreviewObject);
+        
+
+        // 2) Set build mode active
+        IsPlacing = true;
+    }
+    
+    public void StartPlacing2()
+    {
+        prefabToBuild = option2;
+        previewMaterial = PreviewMaterial2;
 
         // Destroy an old preview if it exists
         if (PreviewObject != null)
@@ -85,7 +117,20 @@ public class BuildingSystem : MonoBehaviour
         // 2) Set build mode active
         IsPlacing = false;
         startPlacingButton.interactable = false;
-        
+        switchScene();
+    }
+
+    private void switchScene()
+    {
+        DontDestroyOnLoad(player);
+        player.GetComponent<PlayerSimpleMovement>().enabled = true;
+        player.GetComponent<Rigidbody>().isKinematic = false;
+        Scene targetScene = SceneManager.GetSceneByName(targetSceneName);
+       // Debug.Log("scene");
+        if (targetScene.IsValid() || !targetScene.isLoaded)
+        {
+            SceneManager.LoadScene(targetSceneName, LoadSceneMode.Single);
+        }
     }
 
     /// <summary>
@@ -99,12 +144,18 @@ public class BuildingSystem : MonoBehaviour
         Vector3 finalPos = PreviewObject.transform.position;
         Quaternion finalRot = PreviewObject.transform.rotation;
         
-        Debug.Log("plave");
+        // Debug.Log("plave");
+        node.occupy = true;
 
         // Instantiate the "real" object
         GameObject a = Instantiate(prefabToBuild, finalPos, finalRot);
         
-        Debug.Log(a.name);
+        // set as child of player 
+        a.transform.SetParent(player.transform, true);
+        
+        a.GetComponent<BuildPartController>().OnAttachUpdate();
+        
+        //Debug.Log(a.name);
 
         // Destroy the preview and exit build mode (or keep building—your choice)
         Destroy(PreviewObject);

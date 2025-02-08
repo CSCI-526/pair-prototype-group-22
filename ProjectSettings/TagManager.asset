@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Preview
+  - build_part2
+  - build_part1
   layers:
   - Default
   - TransparentFX
