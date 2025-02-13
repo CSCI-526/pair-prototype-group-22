@@ -20,7 +20,9 @@ public class PlayerMovement : MonoBehaviour
     private float sailLength = 0.5f; // default it to half
     void Start()
     {
-        
+        // intialize sails to half
+        sailFront.transform.localScale = new Vector3(0.05f, 0.1f, 0.1f);
+        sailBack.transform.localScale = new Vector3(0.05f, 0.1f, 0.1f);
     }
 
     // Update is called once per frame
@@ -69,6 +71,36 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // apply rotation and keep other axis from moving
-        transform.Rotate(0.0f, currentRotationSpeed, 0.0f);
+        transform.Rotate(0.0f, currentRotationSpeed, 0.0f, Space.World);
+    }
+
+    void OnCollisionStay(Collision collisionInfo)
+    {
+        // keep player level to ground
+        if(collisionInfo.gameObject.tag == "Course")
+        {
+            transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
+        }
+        
+    }
+
+    void OnCollisionEnter(Collision collisionInfo)
+    {
+        // keep player level to ground
+        if (collisionInfo.gameObject.tag == "Course")
+        {
+            transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
+        }
+
+    }
+
+    void OnCollisionExit(Collision collisionInfo)
+    {
+        // keep player level to ground
+        if (collisionInfo.gameObject.tag == "Course")
+        {
+            transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
+        }
+
     }
 }
