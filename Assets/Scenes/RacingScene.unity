@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -252,6 +256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (161)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -321,6 +329,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -498,6 +510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -567,6 +583,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -638,6 +658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -707,6 +731,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1002,6 +1030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1071,6 +1103,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1142,6 +1178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1211,6 +1251,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1282,6 +1326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1351,6 +1399,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1422,6 +1474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1491,6 +1547,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1562,6 +1622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1631,6 +1695,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1702,6 +1770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1771,6 +1843,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1842,6 +1918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1911,6 +1991,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1982,6 +2066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2051,6 +2139,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2122,6 +2214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2191,6 +2287,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2262,6 +2362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2331,6 +2435,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2477,6 +2585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2546,6 +2658,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2617,6 +2733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2686,6 +2806,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2757,6 +2881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2826,6 +2954,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2897,6 +3029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2967,6 +3103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3036,6 +3176,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3112,6 +3256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3181,6 +3329,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3252,6 +3404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3321,6 +3477,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3392,6 +3552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3462,6 +3626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3523,6 +3691,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3630,6 +3802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3699,6 +3875,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3770,6 +3950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3839,6 +4023,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3910,6 +4098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3979,6 +4171,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (152)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4144,6 +4340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4213,6 +4413,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (182)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4284,6 +4488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4308,7 +4516,7 @@ GameObject:
   - component: {fileID: 562032028}
   m_Layer: 0
   m_Name: Island (5)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4461,6 +4669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4530,6 +4742,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4692,6 +4908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4761,6 +4981,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4832,6 +5056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (153)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4893,6 +5121,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4964,6 +5196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5034,6 +5270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5096,6 +5336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5157,6 +5401,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5228,6 +5476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5298,6 +5550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5367,6 +5623,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5572,6 +5832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5642,6 +5906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5666,7 +5934,7 @@ GameObject:
   - component: {fileID: 770476483}
   m_Layer: 0
   m_Name: Island (1)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5819,6 +6087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5888,6 +6160,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5959,6 +6235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6028,6 +6308,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6099,6 +6383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6168,6 +6456,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6239,6 +6531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6308,6 +6604,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6379,6 +6679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6448,6 +6752,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6519,6 +6827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6588,6 +6900,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6659,6 +6975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6728,6 +7048,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6804,6 +7128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6873,6 +7201,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6980,6 +7312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7004,7 +7340,7 @@ GameObject:
   - component: {fileID: 957133369}
   m_Layer: 0
   m_Name: Island (2)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7232,6 +7568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7302,6 +7642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7323,6 +7667,7 @@ GameObject:
   - component: {fileID: 976671008}
   - component: {fileID: 976671007}
   - component: {fileID: 976671006}
+  - component: {fileID: 976671009}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7397,13 +7742,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976671005}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 1, z: -0.594}
+  m_LocalRotation: {x: 0, y: 0.9848078, z: -0.17364816, w: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 180, z: 0}
+--- !u!114 &976671009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976671005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cc3039a6c93ea43b47396254efe1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1337649119}
+  cameraRotationSpeed: 0.1
 --- !u!1001 &991190557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7463,6 +7822,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7534,6 +7897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7603,6 +7970,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7674,6 +8045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7743,6 +8118,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7889,6 +8268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7958,6 +8341,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8029,6 +8416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8098,6 +8489,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8169,6 +8564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8238,6 +8637,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8309,6 +8712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8378,6 +8785,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8449,6 +8860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8518,6 +8933,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8589,6 +9008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8658,6 +9081,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8729,6 +9156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8798,6 +9229,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9003,6 +9438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9072,6 +9511,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9143,6 +9586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9212,6 +9659,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (151)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9283,6 +9734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9352,6 +9807,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9423,6 +9882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9492,6 +9955,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9563,6 +10030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9632,6 +10103,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9703,6 +10178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9727,7 +10206,7 @@ GameObject:
   - component: {fileID: 1262995872}
   m_Layer: 0
   m_Name: Island (3)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9880,6 +10359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9949,6 +10432,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10020,6 +10507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10089,6 +10580,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10160,6 +10655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10229,6 +10728,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (183)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10300,6 +10803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10369,6 +10876,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10448,6 +10959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6035553256181483128, guid: 67739644813d4eb4a8181a5563e2fb54, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10462,6 +10977,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1553625340}
   m_SourcePrefab: {fileID: 100100000, guid: 67739644813d4eb4a8181a5563e2fb54, type: 3}
+--- !u!4 &1337649119 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2084299047880761268, guid: 67739644813d4eb4a8181a5563e2fb54, type: 3}
+  m_PrefabInstance: {fileID: 1337649118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1338266377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10521,6 +11041,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10592,6 +11116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10662,6 +11190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10723,6 +11255,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10794,6 +11330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10863,6 +11403,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (191)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10934,6 +11478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11003,6 +11551,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (138)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11177,6 +11729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11247,6 +11803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11316,6 +11876,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11520,6 +12084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11544,7 +12112,7 @@ GameObject:
   - component: {fileID: 1473512747}
   m_Layer: 0
   m_Name: Island (4)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11697,6 +12265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11767,6 +12339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11836,6 +12412,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12013,6 +12593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12083,6 +12667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12110,7 +12698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfbade86940d5854f9c18cb8bf80b4aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedConstant: 1
+  speedConstant: 3
   maxRotationSpeed: 0.05
   rotationAcceleration: 0.005
   rotationDecceleration: 0.01
@@ -12124,9 +12712,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553625337}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 1000
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1000
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -12224,6 +12812,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12363,6 +12955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12432,6 +13028,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12503,6 +13103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12572,6 +13176,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12643,6 +13251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12712,6 +13324,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12783,6 +13399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12852,6 +13472,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12923,6 +13547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12992,6 +13620,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13063,6 +13695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (168)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13132,6 +13768,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13203,6 +13843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13272,6 +13916,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13343,6 +13991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (174)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13412,6 +14064,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13483,6 +14139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13552,6 +14212,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13623,6 +14287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13692,6 +14360,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13763,6 +14435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13833,6 +14509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13894,6 +14574,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13965,6 +14649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14034,6 +14722,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14105,6 +14797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14174,6 +14870,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14245,6 +14945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14269,7 +14973,7 @@ GameObject:
   - component: {fileID: 1885960225}
   m_Layer: 0
   m_Name: Island
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14422,6 +15126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14491,6 +15199,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14562,6 +15274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (188)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14632,6 +15348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14701,6 +15421,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14905,6 +15629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14974,6 +15702,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15045,6 +15777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15069,7 +15805,7 @@ GameObject:
   - component: {fileID: 1961534496}
   m_Layer: 0
   m_Name: Island (6)
-  m_TagString: Untagged
+  m_TagString: Course
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15222,6 +15958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15291,6 +16031,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15362,6 +16106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15431,6 +16179,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15502,6 +16254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15571,6 +16327,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15642,6 +16402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15711,6 +16475,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (130)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15888,6 +16656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15957,6 +16729,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16028,6 +16804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16097,6 +16877,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16168,6 +16952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16238,6 +17026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16299,6 +17091,10 @@ PrefabInstance:
     - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
       propertyPath: m_Name
       value: Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331215403019746772, guid: d3fdf83106e3add4eb8e77ec134df250, type: 3}
+      propertyPath: m_TagString
+      value: Course
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -7,6 +7,7 @@ TagManager:
   - Preview
   - build_part2
   - build_part1
+  - Course
   layers:
   - Default
   - TransparentFX
