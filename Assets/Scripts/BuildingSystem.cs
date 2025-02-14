@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class BuildingSystem : MonoBehaviour
 {
@@ -31,6 +32,18 @@ public class BuildingSystem : MonoBehaviour
     // Track the current hovered node
     private Node currentHoveredNode = null;
 
+    [Header("UI Elements")]
+    public TMP_Text levelInfoText;
+    public TMP_Text selectedMaterialText;
+    public TMP_Text selectedWeaponText;
+    public Button woodButton;
+    public Button metalButton;
+    public Button cannonButton;
+    public Button gunButton;
+
+    private string selectedMaterial = "Wood";
+    private string selectedWeapon = "Cannon";
+
     private void Awake()
     {
         // Simple singleton pattern
@@ -38,6 +51,26 @@ public class BuildingSystem : MonoBehaviour
         else Destroy(gameObject);
         
         player.GetComponent<PlayerSimpleMovement>().enabled = false;
+
+        levelInfoText.text = "Level 1\nEnemy: Pirates\nObstacles: Rocks, Storms\nTime Limit: 3:00";
+
+
+        woodButton.onClick.AddListener(() => SelectMaterial("Wood"));
+        metalButton.onClick.AddListener(() => SelectMaterial("Metal"));
+        cannonButton.onClick.AddListener(() => SelectWeapon("Cannon"));
+        gunButton.onClick.AddListener(() => SelectWeapon("Gun"));
+    }
+
+    private void SelectMaterial(string material)
+    {
+        selectedMaterial = material;
+        selectedMaterialText.text = "Material: " + material;
+    }
+
+    private void SelectWeapon(string weapon)
+    {
+        selectedWeapon = weapon;
+        selectedWeaponText.text = "Weapon: " + weapon;
     }
 
     private void Update()
