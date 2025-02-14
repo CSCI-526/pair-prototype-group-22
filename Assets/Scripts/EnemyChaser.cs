@@ -6,10 +6,9 @@ public class EnemyChaser : MonoBehaviour
 {
 
     public Transform playerShip;   // Assign the Player Ship in Inspector
-    public float detectionRadius = 10f;  // Radius to detect the player
-    public float moveSpeed = 5f;   // Speed of enemy movement
+    public float detectionRadius = 15.0f;  // Radius to detect the player
 
-    private bool isChasing = false; // Flag to check if chasing
+    public float lookSpeed = 0.3f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,22 +19,24 @@ public class EnemyChaser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector3.Distance(transform.position, playerShip.position);
-
-        if (distance < detectionRadius)
+        if (playerShip != null)
         {
-            isChasing = true; // Start chasing
-        }
+            float distance = Vector3.Distance(transform.position, playerShip.position);
 
-        if (isChasing)
-        {
-            ChasePlayer();
-        }
-    }
+            if (distance < detectionRadius)
+            {
+                Vector3 targetDirection = playerShip.position - transform.position;
+                // The step size is equal to speed times frame time.
+                float singleStep = lookSpeed * Time.deltaTime;
 
-    void ChasePlayer()
-    {
-        transform.position = Vector3.MoveTowards(transform.position, playerShip.position, moveSpeed * Time.deltaTime);
+                // find cross of x-axis with where the target is
+                Vector3 rotationAxis = Vector3.Cross(transform.right, targetDirection).normalized;
+                rotationAxis.x = 0.0f;
+                rotationAxis.z = 0.0f;
+
+                transform.rotation = Quaternion.AngleAxis(singleStep * Mathf.Rad2Deg, rotationAxis) * transform.rotation;
+            }
+        }
     }
 
     // Call this function when the enemy gets hit by a player's bullet
