@@ -5,13 +5,17 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement; 
 public class TimeManager : MonoBehaviour
 {
-    public float levelTime = 120f; // Set the level time (e.g., 60 seconds)
+    public float levelTime = 240f; // Set the level time (e.g., 60 seconds)
     private float currentTime;
     public Slider timerBar; // Assign in Inspector
     public GameOverUI gameOverUI;
+
+    private bool gameOver;
     // Start is called before the first frame update
     void Start()
     {
+        gameOver = false;
+
         currentTime = levelTime;
         if (timerBar != null)
         {
@@ -23,22 +27,29 @@ public class TimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentTime -= Time.deltaTime;
-        
-        if (timerBar != null)
-            timerBar.value = currentTime;
-
-        if (currentTime <= 0)
+        if (!gameOver)
         {
-            GameOver();
+            currentTime -= Time.deltaTime;
+
+            if (timerBar != null)
+                timerBar.value = currentTime;
+
+            if (currentTime <= 0)
+            {
+                GameOver();
+            }
         }
     }
 
     void GameOver()
     {
-        Debug.Log("Time's up! Restart or go back to ship building.");
+        gameOver = true;
         gameOverUI.ShowGameOverScreen(); // Show Game Over UI
     }
 
+    public void setGameOverTrue()
+    {
+        gameOver = true;
+    }
 
 }
