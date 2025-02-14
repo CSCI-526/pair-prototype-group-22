@@ -18,6 +18,6 @@ public class GameOverUI : MonoBehaviour
 
     public void GoToShipBuilding()
     {
-        SceneManager.LoadScene("ShipBuildingScene"); // Change to actual scene name
+        SceneManager.LoadScene("BuildScene"); // Change to actual scene name
     }
 }
