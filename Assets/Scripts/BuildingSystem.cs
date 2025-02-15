@@ -13,9 +13,13 @@ public class BuildingSystem : MonoBehaviour
 
     public GameObject option1;
     public GameObject option2;
+    public GameObject option3;
+    public GameObject option4;
 
     public Material PreviewMaterial1;
     public Material PreviewMaterial2;
+    public Material PreviewMaterial3;
+    public Material PreviewMaterial4;
     
     public Material previewMaterial;         // Material for the preview object
     public float exitDistanceThreshold = 10f;
@@ -36,13 +40,13 @@ public class BuildingSystem : MonoBehaviour
     public TMP_Text levelInfoText;
     public TMP_Text selectedMaterialText;
     public TMP_Text selectedWeaponText;
-    public Button woodButton;
-    public Button metalButton;
-    public Button cannonButton;
-    public Button gunButton;
+    // public Button woodButton;
+    // public Button metalButton;
+    // public Button cannonButton;
+    // public Button gunButton;
 
-    private string selectedMaterial = "Wood";
-    private string selectedWeapon = "Cannon";
+    // private string selectedMaterial = "Wood";
+    // private string selectedWeapon = "Cannon";
 
     private void Awake()
     {
@@ -50,28 +54,29 @@ public class BuildingSystem : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
         
-        player.GetComponent<PlayerSimpleMovement>().enabled = false;
+        player.GetComponent<PlayerMovement>().enabled = false;
+        player.GetComponent<Rigidbody>().isKinematic = true;
 
-        levelInfoText.text = "Level 1\nEnemy: Pirates\nObstacles: Rocks, Storms\nTime Limit: 3:00";
+       // levelInfoText.text = "Level 1\nEnemy: Pirates\nObstacles: Rocks, Storms\nTime Limit: 3:00";
 
 
-        woodButton.onClick.AddListener(() => SelectMaterial("Wood"));
-        metalButton.onClick.AddListener(() => SelectMaterial("Metal"));
-        cannonButton.onClick.AddListener(() => SelectWeapon("Cannon"));
-        gunButton.onClick.AddListener(() => SelectWeapon("Gun"));
+      //  woodButton.onClick.AddListener(() => SelectMaterial("Wood"));
+     //   metalButton.onClick.AddListener(() => SelectMaterial("Metal"));
+      //  cannonButton.onClick.AddListener(() => SelectWeapon("Cannon"));
+      //  gunButton.onClick.AddListener(() => SelectWeapon("Gun"));
     }
 
-    private void SelectMaterial(string material)
-    {
-        selectedMaterial = material;
-        selectedMaterialText.text = "Material: " + material;
-    }
-
-    private void SelectWeapon(string weapon)
-    {
-        selectedWeapon = weapon;
-        selectedWeaponText.text = "Weapon: " + weapon;
-    }
+    // private void SelectMaterial(string material)
+    // {
+    //     selectedMaterial = material;
+    //     selectedMaterialText.text = "Material: " + material;
+    // }
+    //
+    // private void SelectWeapon(string weapon)
+    // {
+    //     selectedWeapon = weapon;
+    //     selectedWeaponText.text = "Weapon: " + weapon;
+    // }
 
     private void Update()
     {
@@ -145,6 +150,44 @@ public class BuildingSystem : MonoBehaviour
         IsPlacing = true;
     }
     
+    public void StartPlacing3()
+    {
+        prefabToBuild = option3;
+        previewMaterial = PreviewMaterial3;
+
+        // Destroy an old preview if it exists
+        if (PreviewObject != null)
+            Destroy(PreviewObject);
+
+        // 1) Spawn the preview object
+        PreviewObject = Instantiate(prefabToBuild);
+        PreviewObject.tag = "Preview";
+        ApplyPreviewMaterial(PreviewObject);
+        
+
+        // 2) Set build mode active
+        IsPlacing = true;
+    }
+    
+    public void StartPlacing4()
+    {
+        prefabToBuild = option4;
+        previewMaterial = PreviewMaterial4;
+
+        // Destroy an old preview if it exists
+        if (PreviewObject != null)
+            Destroy(PreviewObject);
+
+        // 1) Spawn the preview object
+        PreviewObject = Instantiate(prefabToBuild);
+        PreviewObject.tag = "Preview";
+        ApplyPreviewMaterial(PreviewObject);
+        
+
+        // 2) Set build mode active
+        IsPlacing = true;
+    }
+    
     public void FinishPlacing()
     {
         // 2) Set build mode active
@@ -156,7 +199,7 @@ public class BuildingSystem : MonoBehaviour
     private void switchScene()
     {
         DontDestroyOnLoad(player);
-        player.GetComponent<PlayerSimpleMovement>().enabled = true;
+        player.GetComponent<PlayerMovement>().enabled = true;
         player.GetComponent<Rigidbody>().isKinematic = false;
         Scene targetScene = SceneManager.GetSceneByName(targetSceneName);
        // Debug.Log("scene");
@@ -206,7 +249,7 @@ public class BuildingSystem : MonoBehaviour
         currentHoveredNode = node;
 
         // Snap preview to the node’s transform
-        PreviewObject.transform.position = node.transform.position + node.transform.forward * 0.5f;
+        PreviewObject.transform.position = node.transform.position + node.transform.forward * PreviewObject.GetComponent<BuildPartController>().size;
         PreviewObject.transform.rotation = node.transform.rotation;
 
         // (Optionally) if your node or surface has a "normal," and you want to orient:

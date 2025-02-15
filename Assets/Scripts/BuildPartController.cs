@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BuildPartController : MonoBehaviour
 {
+    public float size = 0.25f;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,14 +23,24 @@ public class BuildPartController : MonoBehaviour
         // Debug.Log("here");
         if (gameObject.CompareTag("build_part1"))
         {
-            rb.mass += 10;
-            rb.drag += 10;
-            rb.angularDrag += 10;
+            rb.mass += 1000;
+            rb.drag += 100;
+            rb.angularDrag += 1000;
         } else if (gameObject.CompareTag("build_part2"))
         {
-            rb.mass += 1;
+            rb.mass += 100;
             rb.drag /= 2;
             rb.angularDrag /= 2;
+        } else if (gameObject.CompareTag("build_part3"))
+        {
+            rb.mass += 100;
+            rb.angularDrag += 100;
+        }
+        else
+        {
+            rb.mass += 1000;
+            rb.angularDrag += 1000;
+            rb.drag += 100;
         }
     }
 

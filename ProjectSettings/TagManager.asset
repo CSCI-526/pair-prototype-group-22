@@ -8,6 +8,8 @@ TagManager:
   - build_part2
   - build_part1
   - Course
+  - build_part3
+  - build_part4
   layers:
   - Default
   - TransparentFX

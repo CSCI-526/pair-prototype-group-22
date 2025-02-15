@@ -8,10 +8,13 @@ public class CameraFollow : MonoBehaviour
     public float cameraRotationSpeed = 0.1f;
     private Vector3 offset = new Vector3(5.0f, 1.5f, 5.0f);
     private Vector3 rotationOffset = new Vector3(20.0f, 90.0f, 0.0f);
+
+    private GameObject playerObj;
     // Start is called before the first frame update
     void Start()
     {
-
+        playerObj = GameObject.Find("Player");
+        player = playerObj.transform;
     }
 
     // Update is called once per frame
