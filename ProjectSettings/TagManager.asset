@@ -10,16 +10,18 @@ TagManager:
   - Course
   - build_part3
   - build_part4
+  - enemy
+  - bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - BuildPart
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Bullet
   - 
   - 
   - 

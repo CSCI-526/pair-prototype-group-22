@@ -8,7 +8,7 @@ public class Gun2 : MonoBehaviour
     public GameObject bulletPrefab;  // Assign your bullet prefab in the Inspector
     public Transform firePoint;      // The position where bullets spawn
     public float bulletSpeed = 20f;  // Speed of the bullet
-    public float fireRate = 0.5f;    // Fire rate (bullets per second)
+    public float fireRate = 20f;    // Fire rate (bullets per second)
     public string owner_tag;
 
     private void Start()
@@ -29,7 +29,7 @@ public class Gun2 : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<BulletLarge>().owner_tag = owner_tag;
         
-        Debug.Log(bullet);
+        // Debug.Log(bullet);
 
         // Get the Rigidbody component and apply force to move the bullet
         Rigidbody rb = bullet.GetComponent<Rigidbody>();

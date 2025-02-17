@@ -12,7 +12,7 @@ public class BulletLarge : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("collide" + collision.gameObject.tag);
+        // Debug.Log("collide" + collision.gameObject.tag);
         if (collision.gameObject.CompareTag("build_part4") || collision.gameObject.CompareTag(owner_tag))
         {
             return;

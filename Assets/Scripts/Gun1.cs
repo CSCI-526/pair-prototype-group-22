@@ -8,7 +8,7 @@ public class Gun1 : MonoBehaviour
     public GameObject bulletPrefab;  // Assign your bullet prefab in the Inspector
     public Transform firePoint;      // The position where bullets spawn
     public float bulletSpeed = 20f;  // Speed of the bullet
-    public float fireRate = 0.5f;    // Fire rate (bullets per second)
+    public float fireRate = 2f;    // Fire rate (bullets per second)
     public string owner_tag;
 
     private void Start()

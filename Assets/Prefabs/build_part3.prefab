@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5095017722195918034}
   - component: {fileID: 7157703208450448839}
   - component: {fileID: 8402218170171565701}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: build_part3
   m_TagString: build_part3
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5553263986678403252, guid: 81b7e637cff314ec59cb6094aa956bc8, type: 3}
   firePoint: {fileID: 0}
   bulletSpeed: 20
-  fireRate: 0.5
+  fireRate: 2
   owner_tag: Player
 --- !u!1 &7392164893463214767
 GameObject:
@@ -150,7 +150,7 @@ GameObject:
   - component: {fileID: 329565941354422725}
   - component: {fileID: 2063797573353326833}
   - component: {fileID: 8240056251528034631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: build_part3
   m_Icon: {fileID: 0}

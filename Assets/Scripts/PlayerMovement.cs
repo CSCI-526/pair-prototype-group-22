@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,7 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public float knockBackDuration = 0.75f;
     public GameObject sailFront;
     public GameObject sailBack;
-
+    public GameObject explosionEffect;
+    
     private float currentRotationSpeed;
     private float horizontalInput;
     private float verticalInput;
@@ -22,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     const float MAX_SAIL_LENGTH = 1.0f;
     const float fixedYLevel = 1.65f;
     private float sailLength = 0.5f; // default it to half
+
+    private float knockBackFactor = 10.0f;
     void Start()
     {
         // intialize sails to half
@@ -34,6 +38,16 @@ public class PlayerMovement : MonoBehaviour
         // intialize other functions
         isKnockBack = false;
         inRock = false;
+    }
+
+    private void OnEnable()
+    {
+        // adjust parameter based on mass
+        rb = GetComponent<Rigidbody>();
+        knockBackFactor = 10.0f * 1000 / rb.mass; 
+        speedConstant = 1.0f / Mathf.Sqrt(rb.mass / 1000);
+        Debug.Log("speedConstant" + speedConstant);
+        Debug.Log("knockbackfactor" + knockBackFactor);
     }
 
     // Update is called once per frame
@@ -103,6 +117,42 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             inRock = true;
         }
+        if (collisionInfo.gameObject.tag == "bullet")
+        {
+            GameObject bullet = collisionInfo.gameObject;
+            if (bullet.GetComponent<Bullet>())
+            {
+                if (bullet.GetComponent<Bullet>().owner_tag == "enemy")
+                {
+                    bulletKnockBack(bullet);
+                }
+            } else if (bullet.GetComponent<BulletLarge>())
+            {
+                if (bullet.GetComponent<BulletLarge>().owner_tag == "enemy")
+                {
+                    bulletKnockBack(bullet);
+                }
+            }
+        }
+    }
+
+    void bulletKnockBack(GameObject bullet)
+    {
+        // Instantiate explosion effect
+        if (explosionEffect != null)
+        {
+            GameObject explosion = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            Destroy(explosion, explosion.GetComponent<ParticleSystem>().main.duration);
+        }
+
+        knockBackFactor = 10.0f * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
+
+        // apply knockBack to player here
+        Vector3 targetDirection = transform.position - bullet.transform.position;
+        applyKnockBack(-1 * targetDirection.normalized);
+
+        // Destroy the enemy ship itself
+        Destroy(bullet);
     }
 
     void OnCollisionExit(Collision collisionInfo)
@@ -113,7 +163,11 @@ public class PlayerMovement : MonoBehaviour
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             inRock = false;
         }
-        rb.velocity = new Vector3(0, 0, 0);
+
+        if (rb)
+        {
+            rb.velocity = new Vector3(0, 0, 0);
+        }
     }
 
     public void applyKnockBack(Vector3 direction)
@@ -131,7 +185,7 @@ public class PlayerMovement : MonoBehaviour
 
         while (elapsedTime < knockBackDuration)
         {
-            transform.Translate(direction * speedConstant * 10.0f * Time.deltaTime);
+            transform.Translate(direction * speedConstant * knockBackFactor * Time.deltaTime);
             elapsedTime += Time.deltaTime;
             if (inRock)
             {
