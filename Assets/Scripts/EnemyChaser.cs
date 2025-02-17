@@ -9,12 +9,12 @@ public class EnemyChaser : MonoBehaviour
     public float detectionRadius = 15.0f;  // Radius to detect the player
     private GameObject playerObj;
     private float initYPos;
-    public float knockBackDuration = 0.75f;
+    public float knockBackDuration = 0.5f;
     public float lookSpeed = 0.3f;
     public GameObject explosionEffect;
     
     private bool isKnockBack;
-    private float knockBackFactor = 10.0f;
+    private float knockBackFactor = 1.0f;
     private Rigidbody rb;
 
     // Start is called before the first frame update
@@ -38,7 +38,6 @@ public class EnemyChaser : MonoBehaviour
 
             if (distance < detectionRadius)
             {
-                Debug.Log("hey");
                 Vector3 targetDirection = playerShip.position - transform.position;
                 // The step size is equal to speed times frame time.
                 float singleStep = lookSpeed * Time.deltaTime;
@@ -51,6 +50,8 @@ public class EnemyChaser : MonoBehaviour
                 transform.rotation = Quaternion.AngleAxis(singleStep * Mathf.Rad2Deg, rotationAxis) * transform.rotation;
             }
         }
+
+        transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
     }
     
     void OnCollisionEnter(Collision collisionInfo)
@@ -84,13 +85,14 @@ public class EnemyChaser : MonoBehaviour
             Destroy(explosion, explosion.GetComponent<ParticleSystem>().main.duration);
         }
 
-        knockBackFactor = 10.0f * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
+        knockBackFactor = knockBackFactor * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
 
-        // apply knockBack to player here
+        // apply knockBack to enemy here
         Vector3 targetDirection = transform.position - bullet.transform.position;
-        applyKnockBack(-1 * targetDirection.normalized);
+        targetDirection.y = 0.0f;
+        applyKnockBack(targetDirection.normalized);
 
-        // Destroy the enemy ship itself
+        // Destroy the bullet
         Destroy(bullet);
     }
     
@@ -109,7 +111,8 @@ public class EnemyChaser : MonoBehaviour
 
         while (elapsedTime < knockBackDuration)
         {
-            transform.Translate(direction * 1.0f * knockBackFactor * Time.deltaTime);
+            transform.Translate(direction * 1.0f * knockBackFactor * Time.deltaTime, Space.World);
+            transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             elapsedTime += Time.deltaTime;
             yield return null;
         }

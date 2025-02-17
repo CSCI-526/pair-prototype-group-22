@@ -201,6 +201,7 @@ public class BuildingSystem : MonoBehaviour
         DontDestroyOnLoad(player);
         player.GetComponent<PlayerMovement>().enabled = true;
         player.GetComponent<Rigidbody>().isKinematic = false;
+        player.GetComponent<Transform>().position = new Vector3(0, 0, -5.0f);
         Scene targetScene = SceneManager.GetSceneByName(targetSceneName);
        // Debug.Log("scene");
         if (targetScene.IsValid() || !targetScene.isLoaded)

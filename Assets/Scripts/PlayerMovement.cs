@@ -6,11 +6,12 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float speedConstant = 1.0f;
+    public float speedConstant = 3.0f;
     public float maxRotationSpeed = 0.05f;
     public float rotationAcceleration = 0.005f;
     public float rotationDecceleration = 0.01f;
-    public float knockBackDuration = 0.75f;
+    public float knockBackDuration = 1.0f;
+    public float knockBackFactor = 1.0f;
     public GameObject sailFront;
     public GameObject sailBack;
     public GameObject explosionEffect;
@@ -24,8 +25,8 @@ public class PlayerMovement : MonoBehaviour
     const float MAX_SAIL_LENGTH = 1.0f;
     const float fixedYLevel = 1.65f;
     private float sailLength = 0.5f; // default it to half
+    private float bulletNerf = 0.2f;
 
-    private float knockBackFactor = 10.0f;
     void Start()
     {
         // intialize sails to half
@@ -44,10 +45,9 @@ public class PlayerMovement : MonoBehaviour
     {
         // adjust parameter based on mass
         rb = GetComponent<Rigidbody>();
-        knockBackFactor = 10.0f * 1000 / rb.mass; 
-        speedConstant = 1.0f / Mathf.Sqrt(rb.mass / 1000);
-        Debug.Log("speedConstant" + speedConstant);
-        Debug.Log("knockbackfactor" + knockBackFactor);
+        knockBackFactor = knockBackFactor * 2000 / rb.mass;
+        knockBackDuration = knockBackDuration * 1250 / rb.mass;
+        speedConstant = speedConstant / Mathf.Pow(rb.mass / 1000, 1.2f);
     }
 
     // Update is called once per frame
@@ -102,7 +102,7 @@ public class PlayerMovement : MonoBehaviour
     void OnCollisionStay(Collision collisionInfo)
     {
         // keep player level to ground
-        if(collisionInfo.gameObject.tag == "Course")
+        if(collisionInfo.gameObject.tag == "Course" || collisionInfo.gameObject.tag == "enemy")
         {
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             inRock = true;
@@ -112,7 +112,7 @@ public class PlayerMovement : MonoBehaviour
     void OnCollisionEnter(Collision collisionInfo)
     {
         // keep player level to ground
-        if (collisionInfo.gameObject.tag == "Course")
+        if (collisionInfo.gameObject.tag == "Course" || collisionInfo.gameObject.tag == "enemy")
         {
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             inRock = true;
@@ -145,11 +145,14 @@ public class PlayerMovement : MonoBehaviour
             Destroy(explosion, explosion.GetComponent<ParticleSystem>().main.duration);
         }
 
-        knockBackFactor = 10.0f * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
+        //knockBackFactor = 10.0f * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
 
         // apply knockBack to player here
-        Vector3 targetDirection = transform.position - bullet.transform.position;
-        applyKnockBack(-1 * targetDirection.normalized);
+        //Vector3 targetDirection = transform.position - bullet.transform.position;
+        Vector3 targetDirection = bullet.GetComponent<Rigidbody>().velocity;
+        targetDirection.y = 0.0f;
+        Debug.Log(targetDirection.normalized);
+        applyKnockBack(targetDirection.normalized * bulletNerf);
 
         // Destroy the enemy ship itself
         Destroy(bullet);
@@ -158,7 +161,7 @@ public class PlayerMovement : MonoBehaviour
     void OnCollisionExit(Collision collisionInfo)
     {
         // keep player level to ground
-        if (collisionInfo.gameObject.tag == "Course")
+        if (collisionInfo.gameObject.tag == "Course" || collisionInfo.gameObject.tag == "enemy")
         {
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             inRock = false;
@@ -185,7 +188,9 @@ public class PlayerMovement : MonoBehaviour
 
         while (elapsedTime < knockBackDuration)
         {
-            transform.Translate(direction * speedConstant * knockBackFactor * Time.deltaTime);
+            Debug.Log(direction * speedConstant * knockBackFactor * Time.deltaTime);
+            Debug.Log(direction);
+            transform.Translate(direction * speedConstant * knockBackFactor * Time.deltaTime, Space.World);
             elapsedTime += Time.deltaTime;
             if (inRock)
             {
@@ -194,6 +199,7 @@ public class PlayerMovement : MonoBehaviour
             yield return null;
         }
         rb.velocity = new Vector3(0, 0, 0);
+        transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
 
         isKnockBack = false;
     }
