@@ -17,10 +17,15 @@ public class GameOverUI : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameObject player = GameObject.Find("Player");
+        player.GetComponent<Transform>().position = new Vector3(0, 0, -5.0f);
+        player.GetComponent<Transform>().rotation = Quaternion.Euler(0.0f, 90.0f, 0.0f);
     }
 
     public void GoToShipBuilding()
     {
         SceneManager.LoadScene("BuildScene"); // Change to actual scene name
+        GameObject player = GameObject.Find("Player");
+        Destroy(player);
     }
 }

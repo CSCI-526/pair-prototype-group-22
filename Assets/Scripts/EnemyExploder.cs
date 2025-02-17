@@ -8,7 +8,7 @@ public class EnemyExploder : MonoBehaviour
     public Transform playerShip;  // Assign the Player Ship in Inspector
     public float detectionRadius = 15.0f;  // Follow trigger radius
 
-    public float knockBackDuration = 0.75f;
+    public float knockBackDuration = 0.5f;
     
     public GameObject explosionEffect; // Assign an explosion effect prefab
     public GameObject playerObject; // Reference to the Player
@@ -17,7 +17,7 @@ public class EnemyExploder : MonoBehaviour
     public float moveSpeed = 0.9f;
     
     private bool isKnockBack;
-    private float knockBackFactor = 10.0f;
+    private float knockBackFactor = 1.0f;
     private Rigidbody rb;
     private float initYPos;
 
@@ -56,6 +56,9 @@ public class EnemyExploder : MonoBehaviour
             // move towards the x-axis at constant speed
             transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
         }
+
+        // reset rotation so it doesn't spin crazy
+        transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
     }
 
     void Explode()
@@ -68,7 +71,8 @@ public class EnemyExploder : MonoBehaviour
 
         // apply knockBack to player here
         Vector3 targetDirection = playerShip.position - transform.position;
-        playerObject.GetComponent<PlayerMovement>().applyKnockBack(-1 * targetDirection.normalized);
+        targetDirection.y = 0.0f;
+        playerObject.GetComponent<PlayerMovement>().applyKnockBack(targetDirection.normalized);
 
         // Destroy the enemy ship itself
         Destroy(gameObject);
@@ -83,11 +87,12 @@ public class EnemyExploder : MonoBehaviour
             Destroy(explosion, explosion.GetComponent<ParticleSystem>().main.duration);
         }
 
-        knockBackFactor = 10.0f * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
+        knockBackFactor = knockBackFactor * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
 
-        // apply knockBack to player here
+        // apply knockBack to enemy here
         Vector3 targetDirection = transform.position - bullet.transform.position;
-        applyKnockBack(-1 * targetDirection.normalized);
+        targetDirection.y = 0.0f;
+        applyKnockBack(targetDirection.normalized);
 
         // Destroy the enemy ship itself
         Destroy(bullet);
@@ -140,7 +145,8 @@ public class EnemyExploder : MonoBehaviour
 
         while (elapsedTime < knockBackDuration)
         {
-            transform.Translate(direction * 1.0f * knockBackFactor * Time.deltaTime);
+            transform.Translate(direction * 1.0f * knockBackFactor * Time.deltaTime, Space.World);
+            transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             elapsedTime += Time.deltaTime;
             yield return null;
         }

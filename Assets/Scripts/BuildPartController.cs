@@ -23,14 +23,14 @@ public class BuildPartController : MonoBehaviour
         // Debug.Log("here");
         if (gameObject.CompareTag("build_part1"))
         {
-            rb.mass += 1000;
+            rb.mass += 500;
             rb.drag += 100;
             rb.angularDrag += 1000;
         } else if (gameObject.CompareTag("build_part2"))
         {
-            rb.mass += 100;
+            rb.mass += 150;
             rb.drag /= 2;
-            rb.angularDrag /= 2;
+            //rb.angularDrag /= 2; Angular mass needs to be kept hight to reduce unwanted rotaiton
         } else if (gameObject.CompareTag("build_part3"))
         {
             rb.mass += 100;
@@ -38,7 +38,7 @@ public class BuildPartController : MonoBehaviour
         }
         else
         {
-            rb.mass += 1000;
+            rb.mass += 250;
             rb.angularDrag += 1000;
             rb.drag += 100;
         }
