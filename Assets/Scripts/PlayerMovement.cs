@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     public float speedConstant = 3.0f;
     public float maxRotationSpeed = 0.05f;
-    public float rotationAcceleration = 0.005f;
+    public float rotationAcceleration = 0.01f;
     public float rotationDecceleration = 0.01f;
     public float knockBackDuration = 1.0f;
     public float knockBackFactor = 1.0f;
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         knockBackFactor = knockBackFactor * 2000 / rb.mass;
         knockBackDuration = knockBackDuration * 1250 / rb.mass;
-        speedConstant = speedConstant / Mathf.Pow(rb.mass / 1000, 1.2f);
+        speedConstant = speedConstant / Mathf.Pow(rb.mass / 1000, 1.02f);
     }
 
     // Update is called once per frame
@@ -105,7 +105,15 @@ public class PlayerMovement : MonoBehaviour
         if(collisionInfo.gameObject.tag == "Course" || collisionInfo.gameObject.tag == "enemy")
         {
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
+        }
+        if (collisionInfo.gameObject.tag == "Course")
+        {
+            Debug.Log("Im stuck");
             inRock = true;
+            // apply force away from rock so user is not clipped
+            Vector3 awayDirection = collisionInfo.gameObject.GetComponent<Transform>().position - transform.position;
+            awayDirection.y = 0.0f;
+            rb.AddForce(awayDirection * 100.0f * Time.deltaTime);
         }
     }
 
@@ -115,6 +123,9 @@ public class PlayerMovement : MonoBehaviour
         if (collisionInfo.gameObject.tag == "Course" || collisionInfo.gameObject.tag == "enemy")
         {
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
+        }
+        if (collisionInfo.gameObject.tag == "Course")
+        {
             inRock = true;
         }
         if (collisionInfo.gameObject.tag == "bullet")
@@ -164,6 +175,9 @@ public class PlayerMovement : MonoBehaviour
         if (collisionInfo.gameObject.tag == "Course" || collisionInfo.gameObject.tag == "enemy")
         {
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
+        }
+        if (collisionInfo.gameObject.tag == "Course")
+        {
             inRock = false;
         }
 
@@ -188,8 +202,6 @@ public class PlayerMovement : MonoBehaviour
 
         while (elapsedTime < knockBackDuration)
         {
-            Debug.Log(direction * speedConstant * knockBackFactor * Time.deltaTime);
-            Debug.Log(direction);
             transform.Translate(direction * speedConstant * knockBackFactor * Time.deltaTime, Space.World);
             elapsedTime += Time.deltaTime;
             if (inRock)

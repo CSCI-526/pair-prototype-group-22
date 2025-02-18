@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement; 
 public class TimeManager : MonoBehaviour
 {
-    public float levelTime = 240f; // Set the level time (e.g., 60 seconds)
+    public float levelTime = 260f; // Set the level time (e.g., 60 seconds)
     private float currentTime;
     public Slider timerBar; // Assign in Inspector
     public GameOverUI gameOverUI;

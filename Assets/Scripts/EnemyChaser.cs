@@ -14,6 +14,7 @@ public class EnemyChaser : MonoBehaviour
     public GameObject explosionEffect;
     
     private bool isKnockBack;
+    private bool inRock;
     private float knockBackFactor = 1.0f;
     private Rigidbody rb;
 
@@ -24,6 +25,7 @@ public class EnemyChaser : MonoBehaviour
         playerShip = playerObj.transform;
         initYPos = transform.position.y;
         rb = GetComponent<Rigidbody>();
+        inRock = false;
     }
 
     // Update is called once per frame
@@ -74,8 +76,21 @@ public class EnemyChaser : MonoBehaviour
                 }
             }
         }
+
+        if (collisionInfo.gameObject.tag == "Course")
+        {
+            inRock = true;
+        }
     }
-    
+
+    void OnCollisionExit(Collision collisionInfo)
+    {
+        if (collisionInfo.gameObject.tag == "Course")
+        {
+            inRock = false;
+        }
+    }
+
     void Explode2(GameObject bullet)
     {
         // Instantiate explosion effect
@@ -88,7 +103,7 @@ public class EnemyChaser : MonoBehaviour
         knockBackFactor = knockBackFactor * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
 
         // apply knockBack to enemy here
-        Vector3 targetDirection = transform.position - bullet.transform.position;
+        Vector3 targetDirection = bullet.GetComponent<Rigidbody>().velocity; ;
         targetDirection.y = 0.0f;
         applyKnockBack(targetDirection.normalized);
 
@@ -111,9 +126,13 @@ public class EnemyChaser : MonoBehaviour
 
         while (elapsedTime < knockBackDuration)
         {
-            transform.Translate(direction * 1.0f * knockBackFactor * Time.deltaTime, Space.World);
+            transform.Translate(direction * 2.0f * knockBackFactor * Time.deltaTime, Space.World);
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             elapsedTime += Time.deltaTime;
+            if (inRock)
+            {
+                break;
+            }
             yield return null;
         }
         rb.velocity = new Vector3(0, 0, 0);
