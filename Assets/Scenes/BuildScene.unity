@@ -3608,9 +3608,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedConstant: 3
-  maxRotationSpeed: 20
-  rotationAcceleration: 0.01
-  rotationDecceleration: 0.01
+  maxRotationSpeed: 12.5
+  rotationAcceleration: 6.25
+  rotationDecceleration: 6.25
   knockBackDuration: 0.75
   knockBackFactor: 10
   sailFront: {fileID: 1644665398}

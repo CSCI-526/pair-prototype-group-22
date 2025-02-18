@@ -7,9 +7,9 @@ public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
     public float speedConstant = 3.0f;
-    public float maxRotationSpeed = 20.0f;
-    public float rotationAcceleration = 0.01f;
-    public float rotationDecceleration = 0.01f;
+    public float maxRotationSpeed = 12f;
+    public float rotationAcceleration = 6.25f;
+    public float rotationDecceleration = 6.25f;
     public float knockBackDuration = 1.0f;
     public float knockBackFactor = 1.0f;
     public GameObject sailFront;
@@ -77,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
         {
             // Increase rotation speed while horizontal Input is applied
             currentRotationSpeed += horizontalInput * rotationAcceleration * Time.deltaTime;
-            currentRotationSpeed = Mathf.Clamp(currentRotationSpeed, -maxRotationSpeed * Time.deltaTime, maxRotationSpeed * Time.deltaTime);
+            currentRotationSpeed = Mathf.Clamp(currentRotationSpeed, -maxRotationSpeed, maxRotationSpeed);
         }
         else
         {
@@ -96,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // apply rotation and keep other axis from moving
-        transform.Rotate(0.0f, currentRotationSpeed, 0.0f, Space.World);
+        transform.Rotate(0.0f, currentRotationSpeed * Time.deltaTime, 0.0f, Space.World);
     }
 
     void OnCollisionStay(Collision collisionInfo)
