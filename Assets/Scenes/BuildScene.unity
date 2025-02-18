@@ -3609,7 +3609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedConstant: 3
   maxRotationSpeed: 0.05
-  rotationAcceleration: 0.005
+  rotationAcceleration: 0.01
   rotationDecceleration: 0.01
   knockBackDuration: 0.75
   knockBackFactor: 10
@@ -4644,7 +4644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time Limit: 120s'
+  m_text: 'Time Limit: 260s'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

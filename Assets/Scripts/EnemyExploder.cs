@@ -8,7 +8,7 @@ public class EnemyExploder : MonoBehaviour
     public Transform playerShip;  // Assign the Player Ship in Inspector
     public float detectionRadius = 15.0f;  // Follow trigger radius
 
-    public float knockBackDuration = 0.5f;
+    public float knockBackDuration = 0.75f;
     
     public GameObject explosionEffect; // Assign an explosion effect prefab
     public GameObject playerObject; // Reference to the Player
@@ -17,6 +17,7 @@ public class EnemyExploder : MonoBehaviour
     public float moveSpeed = 0.9f;
     
     private bool isKnockBack;
+    private bool inRock;
     private float knockBackFactor = 1.0f;
     private Rigidbody rb;
     private float initYPos;
@@ -27,6 +28,7 @@ public class EnemyExploder : MonoBehaviour
         playerObject = GameObject.Find("Player");
         playerShip = playerObject.transform;
         isKnockBack = false;
+        inRock = false;
         rb = GetComponent<Rigidbody>();
         initYPos = transform.position.y;
     }
@@ -90,7 +92,7 @@ public class EnemyExploder : MonoBehaviour
         knockBackFactor = knockBackFactor * Mathf.Sqrt(bullet.GetComponent<Rigidbody>().mass / 200f);
 
         // apply knockBack to enemy here
-        Vector3 targetDirection = transform.position - bullet.transform.position;
+        Vector3 targetDirection = bullet.GetComponent<Rigidbody>().velocity; ;
         targetDirection.y = 0.0f;
         applyKnockBack(targetDirection.normalized);
 
@@ -128,8 +130,21 @@ public class EnemyExploder : MonoBehaviour
                 }
             }
         }
+
+        if (collisionInfo.gameObject.tag == "Course")
+        {
+            inRock = true;
+        }
     }
-    
+
+    void OnCollisionExit(Collision collisionInfo)
+    {
+        if (collisionInfo.gameObject.tag == "Course")
+        {
+            inRock = false;
+        }
+    }
+
     public void applyKnockBack(Vector3 direction)
     {
         if (!isKnockBack)
@@ -145,9 +160,13 @@ public class EnemyExploder : MonoBehaviour
 
         while (elapsedTime < knockBackDuration)
         {
-            transform.Translate(direction * 1.0f * knockBackFactor * Time.deltaTime, Space.World);
+            transform.Translate(direction * 2.0f * knockBackFactor * Time.deltaTime, Space.World);
             transform.rotation = Quaternion.Euler(0.0f, transform.rotation.eulerAngles.y, 0.0f);
             elapsedTime += Time.deltaTime;
+            if (inRock)
+            {
+                break;
+            }
             yield return null;
         }
         rb.velocity = new Vector3(0, 0, 0);
