@@ -3608,7 +3608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedConstant: 3
-  maxRotationSpeed: 0.05
+  maxRotationSpeed: 20
   rotationAcceleration: 0.01
   rotationDecceleration: 0.01
   knockBackDuration: 0.75

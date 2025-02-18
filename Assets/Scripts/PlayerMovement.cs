@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
     public float speedConstant = 3.0f;
-    public float maxRotationSpeed = 0.05f;
+    public float maxRotationSpeed = 20.0f;
     public float rotationAcceleration = 0.01f;
     public float rotationDecceleration = 0.01f;
     public float knockBackDuration = 1.0f;
@@ -77,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
         {
             // Increase rotation speed while horizontal Input is applied
             currentRotationSpeed += horizontalInput * rotationAcceleration * Time.deltaTime;
-            currentRotationSpeed = Mathf.Clamp(currentRotationSpeed, -maxRotationSpeed, maxRotationSpeed);
+            currentRotationSpeed = Mathf.Clamp(currentRotationSpeed, -maxRotationSpeed * Time.deltaTime, maxRotationSpeed * Time.deltaTime);
         }
         else
         {
